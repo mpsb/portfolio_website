@@ -11,8 +11,14 @@ let resumeData = {
     socialLinks: [
         {
             "name": "linkedin",
-            "url": 
-        }
+            "url": "https://www.linkedin.com/in/matthew-b-6614a811b/",
+            "className": "fa fa-linkedin"
+        },
+        {
+            "name": "github",
+            "url": "https://www.github.com/mpsb/",
+            "className": "fa fa-github"
+        },
     ]
 };
 
