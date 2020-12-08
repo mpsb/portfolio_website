@@ -11,7 +11,6 @@ export default class Header extends Component {
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
               Show navigation
             </a>
-            {/*<a className='mobile-btn' href='#' title='Hide navigation'>Hide navigation</a>*/}
             <ul id="nav" className="nav">
               <li className="current">
                 <a className="smoothscroll" href="#home">
@@ -21,6 +20,11 @@ export default class Header extends Component {
               <li className="current">
                 <a className="smoothscroll" href="#about">
                   About
+                </a>
+              </li>
+              <li className="current">
+                <a className="smoothscroll" href="#login-popup" data-effect="mfp-zoom-in">
+                  Login (for Matthew only though)
                 </a>
               </li>
             </ul>
