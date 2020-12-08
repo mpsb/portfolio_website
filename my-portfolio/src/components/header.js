@@ -23,7 +23,8 @@ export default class Header extends Component {
                 </a>
               </li>
               <li className="current">
-                <a className="smoothscroll" href="#login-popup" data-effect="mfp-zoom-in">
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
+                <a className="smoothscroll" href="#login">
                   Login (for Matthew only though)
                 </a>
               </li>

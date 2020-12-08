@@ -1004,3 +1004,50 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
+/* ------------------------------------------------------------------ */
+/* i. Login Section
+/* ------------------------------------------------------------------ */
+
+#login {
+   background: #2B2B2B;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#login a, #login a:visited  { color: #fff; }
+#login a:hover, #login a:focus { color: #11ABB0; }
+
+#login h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+#login p {
+   line-height: 30px;
+   color: #7A7A7A;
+}
+#login .profile-pic {
+   position: relative;
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
+}
+#login .contact-details { width: 41.66667%; }
+#login .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#login .main-col { padding-right: 5%; }
+#login .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+#login .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#login .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}

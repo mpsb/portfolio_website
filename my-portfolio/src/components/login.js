@@ -1,11 +1,16 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 
 export default class Login extends Component {
-    render() {
-        return(
-            <div>
-                Login
-            </div>
-        );
-    }
+  render() {
+
+    return (
+      <section id="login">
+        <div className="row">
+          <div className="twelve columns main-col">
+            <h2>Login</h2>
+          </div>
+        </div>
+      </section>
+    );
+  }
 }
