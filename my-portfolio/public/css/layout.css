@@ -1051,3 +1051,7 @@ footer .social-links li:first-child { margin-left: 0; }
    margin-right: 15px;
    font-size: 20px;
 }
+
+#login .btn {
+   margin-top: 18px;
+}

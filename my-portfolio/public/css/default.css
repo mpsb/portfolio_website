@@ -526,8 +526,8 @@ input::-moz-focus-inner {
 
 /*  7. Forms  --------------------------------------------------------- */
 
-form { margin-bottom: 24px; }
-fieldset { margin-bottom: 24px; }
+form { margin-bottom: 24px; text-align: center;}
+fieldset { margin-bottom: 24px; text-align: center;}
 
 input[type="text"],
 input[type="password"],
@@ -536,7 +536,7 @@ textarea,
 select {
    display: block;
    padding: 18px 15px;
-   margin: 0 0 24px 0;
+   margin: auto;
    border: 0;
    outline: none;
    vertical-align: middle;
