@@ -231,6 +231,12 @@ ul#nav li.current a { color: #F06000; }
    font-size: 20px;
 }
 
+#about h3 {
+   font: 18px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
