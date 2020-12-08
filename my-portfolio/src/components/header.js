@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -23,9 +24,8 @@ export default class Header extends Component {
                 </a>
               </li>
               <li className="current">
-                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
                 <a className="smoothscroll" href="#login">
-                  Login (for Matthew only though)
+                  Login
                 </a>
               </li>
             </ul>
@@ -56,9 +56,10 @@ export default class Header extends Component {
               </ul>
             </div>
           </div>
+          <br></br>
           <p className="scrolldown">
             <a className="smoothscroll" href="#about">
-              <i className="icon-down-circle"></i>
+              <i className="fa fa-arrow-circle-down"></i>
             </a>
           </p>
         </header>
