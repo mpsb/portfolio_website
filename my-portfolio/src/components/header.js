@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import '../bokeh.scss';
 
 
 export default class Header extends Component {
@@ -7,7 +8,7 @@ export default class Header extends Component {
 
     return (
       <React.Fragment>
-        <header id="home" className="App-header">
+        <header id="home" >
           <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
               Show navigation
@@ -56,12 +57,29 @@ export default class Header extends Component {
               </ul>
             </div>
           </div>
+          <div className='background-animation'>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
           <br></br>
           <p className="scrolldown">
             <a className="smoothscroll" href="#about">
               <i className="fa fa-arrow-circle-down"></i>
             </a>
           </p>
+          </div>
         </header>
       </React.Fragment>
     );

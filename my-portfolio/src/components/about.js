@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-// import ReactWeather from 'react-open-weather';
-// import 'react-open-weather/lib/css/ReactWeather.css';
+import ReactWeather from 'react-open-weather';
+import 'react-open-weather/lib/css/ReactWeather.css';
 
 
 export default class About extends Component {
@@ -17,14 +17,14 @@ export default class About extends Component {
         </div>
         <div className="row">
           <div className="twelve columns main-col">
-            {/* currently not working. <ReactWeather
-                forecast="today"
+            <h3>Current Weather where I'm at:</h3>
+            <ReactWeather
+                forecast="5days"
                 unit="metric"
                 apikey="c7c75da96862a9c0d7c60d22516458e1"
                 type="city"
                 city="Hong Kong"
-                /> */}
-            <h3>Current Weather where I'm at:</h3>
+                />
           </div>
         </div>
       </section>
