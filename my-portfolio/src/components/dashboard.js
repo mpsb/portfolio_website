@@ -26,7 +26,7 @@ export default class Header extends Component {
               </li>
               <li className="current">
                 <a className="smoothscroll" href="#login">
-                  Login
+                  Logout
                 </a>
               </li>
             </ul>
@@ -34,11 +34,11 @@ export default class Header extends Component {
           <div className="row banner">
             <div className="banner-text">
               <h1 className="responsive-headline">
-                Hi there, {resumeData.name} here.
+                Welcome, {resumeData.name}.
               </h1>
 
               <h3 style={{ color: "#fff", fontFamily: "sans-serif" }}>
-                {resumeData.role}. {resumeData.roleDescription}
+                Carpe diem.
               </h3>
 
               <hr />
