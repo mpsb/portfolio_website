@@ -8,6 +8,15 @@ const jwt = require("jsonwebtoken");
 const app = express();
 const port = process.env.PORT || 4000;
 
+// static user details
+const userData = {
+    userId: "1234",
+    password: "1234",
+    name: "Some Guy",
+    username: "someGuy",
+    isAdmin: true
+}
+
 // enable cors
 app.use(cors());
 
