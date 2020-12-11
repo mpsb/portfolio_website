@@ -25,4 +25,16 @@ function getCleanUser(user) {
   if (!user) {
     return null;
   }
+
+  return {
+      userId: userId,
+      name: user.name,
+      username: user.username,
+      isAdmin: user.isAdmin
+  };
+}
+
+module.exports = {
+    generateToken,
+    getCleanUser
 }
