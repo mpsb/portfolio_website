@@ -15,6 +15,8 @@
    g. Testimonials Section
    h. Contact Section
    i. Footer
+   j. Login Section
+   k. Projects Section
 
 ===================================================================== */
 
@@ -1012,7 +1014,7 @@ footer .social-links li:first-child { margin-left: 0; }
 #go-top a:hover { background-color: #0F9095; }
 
 /* ------------------------------------------------------------------ */
-/* i. Login Section
+/* j. Login Section
 /* ------------------------------------------------------------------ */
 
 #login {
@@ -1061,4 +1063,58 @@ footer .social-links li:first-child { margin-left: 0; }
 
 #login .btn {
    margin-top: 18px;
+}
+
+/* ------------------------------------------------------------------ */
+/* k. Projects Section
+/* ------------------------------------------------------------------ */
+
+#projects {
+   background: #2B2B2B;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#projects a, #projects a:visited  { color: #fff; }
+#projects a:hover, #projects a:focus { color: #11ABB0; }
+
+#projects h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+#projects p {
+   line-height: 30px;
+   color: #7A7A7A;
+}
+#projects .profile-pic {
+   position: relative;
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
+}
+#about .contact-details { width: 41.66667%; }
+#about .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#projects .main-col { padding-right: 5%; }
+#projects .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+#projects .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#projects .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
+
+#projects h3 {
+   font: 18px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
 }

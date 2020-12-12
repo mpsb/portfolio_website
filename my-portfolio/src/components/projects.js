@@ -6,7 +6,7 @@ export default class Projects extends Component {
     let resumeData = this.props.resumeData;
 
     return (
-      <section id="about">
+      <section id="projects">
         <div className="row">
           <div className="twelve columns main-col">
             <h2>Projects</h2>
