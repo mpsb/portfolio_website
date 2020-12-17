@@ -4,7 +4,7 @@ import "../bokeh.scss";
 function Dashboard(props) {
   // handle click event of logout button
   const handleLogout = () => {
-    props.history.push("./login");
+    props.history.push("/login");
   };
 
   let resumeData = this.props.resumeData;
